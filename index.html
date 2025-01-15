@@ -1,13 +1,46 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Charts</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PDF Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .pdf-container {
+            margin: 20px 0;
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Charts</h1>
-    <ul>
-        <li><a href="Daily Mean Salinities Map.pdf" target="_blank">Chart PDF</a></li>
-    </ul>
+    <h1>Welcome to My PDF Collection</h1>
+    <p>Below are the PDFs available on this site:</p>
+    
+    <div class="pdf-container">
+        <h2>Example PDF 1</h2>
+        <iframe src="Daily Mean Salinities Map.pdf"></iframe>
+    </div>
+    
+    <div class="pdf-container">
+        <h2>Example PDF 2</h2>
+        <iframe src="example2.pdf"></iframe>
+    </div>
+    
+    <div class="pdf-container">
+        <h2>Example PDF 3</h2>
+        <iframe src="pdfs/example3.pdf"></iframe>
+    </div>
 </body>
 </html>
